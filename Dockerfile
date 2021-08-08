@@ -5,7 +5,7 @@ WORKDIR /app
 COPY --from=builder /app .
 ENTRYPOINT ["dotnet", "SimpleTracker.dll"]
 
-ENV DISCORD_WEB_HOOK=https://discord.com/api/webhooks/873517228442664991/7E-rcVgtOrfTNdjWYe3wnG9wnQ5C2oZj6aEhHLphUikIgJ9AbPL3pudQza3RAWk0Wj_d 
+ENV DISCORD_WEB_HOOK=https://discord.com/api/webhooks/873754157042008064/8y6aRreCJJrG1xSiQBD7sih3I2FFBouRliooS5a3C1DuhI-7OLdkrwvtTT1JNOTHNduX 
         ARENA_TYPE=FLEET \
         ALLY_CODES_URL=http://rotbot.eu/sniper/ac-472589825065615362-fleet.json  \
         CUSTOM_MESSAGE_STATUS="%USER_ICON% `%PLAYER_NAME% is at %CURRENT_RANK%.` PO `in %TIME_TO_PO%`" \
